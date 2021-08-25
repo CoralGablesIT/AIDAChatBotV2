@@ -76,3 +76,4 @@ Run Rasa Chatbot
     rasa init
     rasa train
     rasa run
+$ AIDA
