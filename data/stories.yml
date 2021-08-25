@@ -1,0 +1,102 @@
+version: "2.0"
+
+
+- story: interactive_story_1
+  steps:
+  - intent: ask_which_financial
+  - action: utter_which_financial
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+
+- story: interactive_story_1
+  steps:
+  - intent: ask_which_financial
+  - action: utter_which_financial
+  - intent: ask_which_financial
+  - action: utter_which_financial
+  - intent: goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: ask_which_financial
+  - action: utter_which_financial
+
+- story: interactive_story_1
+  steps:
+  - intent: ask_which_financial
+  - action: utter_which_financial
+
+- story: interactive_story_1
+  steps:
+  - intent: ask_which_financial
+  - action: utter_which_financial
+  - intent: ask_which_financial
+  - action: utter_which_financial
+  - intent: get_financial_revenues
+  - action: utter_get_financial_revenues
+
+- story: interactive_story_1
+  steps:
+  - intent: ask_which_map
+  - action: utter_which_map
+
+- story: interactive_story_1
+  steps:
+  - intent: ask_which_financial
+  - action: utter_which_financial
+  - intent: get_financial_expenditures
+  - action: utter_get_financial_expenditures
+  - intent: ask_which_map
+  - action: utter_which_map
+
+- story: interactive_story_1
+  steps:
+  - intent: get_trolley_routes_and_stops
+  - action: utter_get_trolley_routes_and_stops
+  - intent: get_invoice_business_licenses
+  - action: utter_get_invoice_business_licenses
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+  - intent: get_waze_connected_citizen_coral_gables_portal
+  - action: utter_get_waze_connected_citizen_coral_gables_portal
+
+- story: interactive_story_1
+  steps:
+  - intent: get_trolley_routes_and_stops
+  - action: utter_get_trolley_routes_and_stops
+  - intent: get_invoice_business_licenses
+  - action: utter_get_invoice_business_licenses
+
+- story: interactive_story_1
+  steps:
+  - intent: get_waze_connected_citizen_coral_gables_portal
+  - action: utter_get_waze_connected_citizen_coral_gables_portal
+  - intent: get_attractions_pictures
+  - action: utter_get_attractions_pictures
+  - intent: get_get_the_city_app
+  - action: utter_get_get_the_city_app
+  - intent: get_enews
+  - action: utter_get_enews
+  - intent: ask_which_citizen
+  - action: utter_which_citizen
+
+- story: interactive_story_1
+  steps:
+  - intent: ask_which_financial
+  - action: utter_which_financial
+  - intent: get_financial_revenues
+  - action: utter_get_financial_revenues
+  - intent: greet
+  - action: utter_ask_what_do_you_need
+  - intent: ask_which_financial
+  - action: utter_which_financial
+
+- story: interactive_story_1
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+
+- story: interactive_story_1
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
