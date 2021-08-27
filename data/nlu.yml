@@ -855,6 +855,11 @@ nlu:
     - coral gables planning
     - gables master planning
     - current master plans
+- intent: chloe
+  examples: |
+    - chloe
+    - Chloe
+    - Chlo
 - intent: get_smart_city_comp
   examples: |
     - smart competition

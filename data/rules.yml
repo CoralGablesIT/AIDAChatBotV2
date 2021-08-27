@@ -51,7 +51,10 @@ rules:
     - intent: ask_which_map
     - action: utter_which_map
 
-
+- rule: get_chloe
+  steps:
+    - intent: chloe
+    - action: utter_chloe
 - rule : Ask the user which city
   steps:
     - intent: ask_which_city

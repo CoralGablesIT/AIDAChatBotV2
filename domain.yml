@@ -3,6 +3,9 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- chloe
+- greet
+- out_of_scope
 - nlu_fallback
 - get_invoice_business_licenses
 - get_trolley_routes_and_stops
@@ -25,9 +28,7 @@ intents:
 - ask_which_public_records
 - ask_which_citizen
 - ask_which_coral_gables
-- greet
 - goodbye
-- out_of_scope
 - mood_great
 - get_property_tax_distribution
 - get_passports_applications_dashboard
@@ -271,6 +272,8 @@ responses:
   - text: Exploring the Smart City Hub is a cool way to learn about City Services, Here's a link - https://www.coralgables.com/smartcity#appstore, Also, here's another item I found for you - https://cggisw.coralgables.com/cgoverlay/
   utter_get_election_demographics:
   - text: I found this link for you https://cggisw.coralgables.com/cgdemographics/
+  utter_chloe:
+  - text: Hi, Just wanted a small little easter egg saying you were on my mind.
   utter_get_trolley_routes_and_stops:
   - text: Exploring the Smart City Hub is a cool way to learn about Trolley Routes and Stops, Here's a link - https://www.coralgables.com/smartcity#appstore, Also, here's another item I found for you - https://cggisw.coralgables.com/cgtrolley/
   utter_get_explore_coral_gables:
@@ -307,6 +310,7 @@ responses:
   - text: Good morning, welcome to The Coral Gables Hub, this is AIDA, I am here to help you navigate this portal, what are you looking for?
 actions:
 - utter_ask_what_do_you_need
+- utter_chloe
 - utter_cic_smartcity
 - utter_egov_smartcity
 - utter_engagement_smartcity
@@ -392,6 +396,7 @@ actions:
 - utter_goodbye
 - utter_inits_smartcity
 - utter_iot_smartcity
+- utter_out_of_scope
 - utter_parking_smartcity
 - utter_please_rephrase
 - utter_transparency_smartcity
